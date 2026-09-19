@@ -60,15 +60,15 @@ KEYWORDS = {
         "hostel",
         "bail hostel",
     ],
-    "Serco / asylum contractors": [
+    "Asylum contractors": [
         "serco",
         "clearsprings",
         "mears",
     ],
-    "Stafford Muslim Community Centre": [
-        "sandyford street",
-        "baswich lane",
-        "muslim community centre",
+    "Islam": [
+        "mosque",
+        "islam",
+        "muslim",
     ],
 }
 
