@@ -58,7 +58,6 @@ KEYWORDS = {
         "unaccompanied",
         "uasc",
         "hostel",
-        "bail hostel",
     ],
     "Asylum contractors": [
         "serco",
@@ -69,6 +68,7 @@ KEYWORDS = {
         "mosque",
         "islam",
         "muslim",
+        "halal",
     ],
 }
 
