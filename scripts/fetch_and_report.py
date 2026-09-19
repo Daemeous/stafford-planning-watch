@@ -282,16 +282,64 @@ Search any reference at <a href="{PUBLIC_ACCESS_URL}">Public Access</a>.</p>
     HTML_FILE.write_text(html, encoding="utf-8")
 
 
+EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
+
+
+def fetch_signup_emails():
+    """Pull subscriber addresses from a published Google Form responses
+    sheet (CSV export). Returns [] if GOOGLE_FORM_CSV_URL isn't set."""
+    csv_url = os.environ.get("GOOGLE_FORM_CSV_URL")
+    if not csv_url:
+        return []
+    try:
+        resp = requests.get(csv_url, timeout=30)
+        resp.raise_for_status()
+    except requests.RequestException as e:
+        log(f"Could not fetch signup CSV: {e}")
+        return []
+
+    import csv
+    import io
+
+    reader = csv.DictReader(io.StringIO(resp.text))
+    email_field = next(
+        (f for f in (reader.fieldnames or []) if "email" in f.lower()), None
+    )
+    if not email_field:
+        log("Signup CSV has no recognisable email column - skipping.")
+        return []
+
+    emails = []
+    for row in reader:
+        addr = (row.get(email_field) or "").strip().lower()
+        if EMAIL_RE.match(addr):
+            emails.append(addr)
+    return sorted(set(emails))
+
+
+def build_recipient_list():
+    base = [
+        addr.strip()
+        for addr in os.environ.get("MAIL_TO", "").split(",")
+        if addr.strip()
+    ]
+    signups = fetch_signup_emails()
+    all_recipients = list(dict.fromkeys(base + signups))  # de-dupe, keep order
+    return base, signups, all_recipients
+
+
 def send_email(new_week_labels, all_records, pages_url):
     smtp_host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
     smtp_port = int(os.environ.get("SMTP_PORT", "587"))
     smtp_user = os.environ.get("SMTP_USER")
     smtp_pass = os.environ.get("SMTP_PASS")
-    mail_to = os.environ.get("MAIL_TO")
+    base, signups, recipients = build_recipient_list()
 
-    if not (smtp_user and smtp_pass and mail_to):
-        log("Email not configured (SMTP_USER/SMTP_PASS/MAIL_TO missing) - skipping send.")
+    if not (smtp_user and smtp_pass and recipients):
+        log("Email not configured (SMTP_USER/SMTP_PASS/MAIL_TO missing, or no recipients) - skipping send.")
         return
+    if signups:
+        log(f"Including {len(signups)} signed-up subscriber(s) from the Google Form.")
 
     new_records = [r for r in all_records if r["week"] in new_week_labels]
     flagged = [r for r in new_records if r["flags"]]
@@ -313,18 +361,25 @@ def send_email(new_week_labels, all_records, pages_url):
     lines.append(f"Search any reference: {PUBLIC_ACCESS_URL}")
 
     body = "\n".join(lines)
-    subject = f"Stafford Planning: {len(flagged)} flagged of {len(new_records)} new"
-
-    msg = MIMEText(body)
-    msg["Subject"] = subject
-    msg["From"] = smtp_user
-    msg["To"] = mail_to
+    subject = (
+        f"Stafford Planning: {len(flagged)} flagged of {len(new_records)} new"
+        if flagged
+        else f"Stafford Planning: nothing flagged ({len(new_records)} new)"
+    )
 
     with smtplib.SMTP(smtp_host, smtp_port) as server:
         server.starttls()
         server.login(smtp_user, smtp_pass)
-        server.sendmail(smtp_user, [mail_to], msg.as_string())
-    log(f"Email sent to {mail_to}")
+        for addr in recipients:
+            msg = MIMEText(body)
+            msg["Subject"] = subject
+            msg["From"] = smtp_user
+            msg["To"] = addr
+            try:
+                server.sendmail(smtp_user, [addr], msg.as_string())
+            except smtplib.SMTPException as e:
+                log(f"Failed to email {addr}: {e}")
+    log(f"Email sent to {len(recipients)} recipient(s)")
 
 
 def main():

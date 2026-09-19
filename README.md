@@ -16,7 +16,11 @@ email summary when a new week is published.
      add more).
   4. Appends to `data/applications.json` (full history) and regenerates
      `docs/index.html`.
-  5. Emails a summary if `SMTP_USER` / `SMTP_PASS` / `MAIL_TO` secrets are set.
+  5. Emails a summary — always stating how many were flagged, even if zero —
+     to everyone in `MAIL_TO` plus anyone who has signed up via the Google
+     Form (see below), if `SMTP_USER` / `SMTP_PASS` / `MAIL_TO` secrets are
+     set. Each recipient is emailed individually so subscribers can't see
+     each other's addresses.
 
 ## One-time setup
 
@@ -26,9 +30,30 @@ email summary when a new week is published.
    - `SMTP_USER` — sending email address (e.g. a Gmail address)
    - `SMTP_PASS` — an [app password](https://myaccount.google.com/apppasswords)
      for that account (not your normal password)
-   - `MAIL_TO` — where the weekly summary should go
+   - `MAIL_TO` — comma-separated fixed recipients, e.g.
+     `you@example.com,team@example.org`
+   - `GOOGLE_FORM_CSV_URL` — optional, see below
 3. Run the workflow once manually (Actions tab → "Check Stafford planning
    list" → Run workflow) to do the initial backfill.
+
+### Self-service signup via Google Form
+
+1. Create a Google Form with one short-answer question, e.g. "Email
+   address" (the field name just needs to contain the word "email").
+2. In the Form's *Responses* tab, click the Sheets icon to create a linked
+   response spreadsheet.
+3. In that Sheet: File → Share → Publish to web → select the responses
+   sheet/tab → format **Comma-separated values (.csv)** → Publish. Copy the
+   resulting URL.
+4. Add it as the `GOOGLE_FORM_CSV_URL` repo secret.
+5. Share the Form's public link with anyone who wants to subscribe. Each
+   run of the checker re-reads the sheet and emails everyone in it, so new
+   signups start receiving the digest from the next run onward.
+
+Note: publishing a sheet "to the web" makes it readable by anyone who has
+that exact URL (it isn't discoverable, but it isn't access-controlled
+either) — don't publish a sheet that has other columns you'd rather keep
+private.
 
 ## Local run
 
