@@ -234,17 +234,40 @@ def generate_html(all_records):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Stafford Planning Watch</title>
 <style>
-  :root {{ color-scheme: light dark; }}
-  body {{ font-family: system-ui, -apple-system, Segoe UI, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }}
+  :root {{
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #666666;
+    --border: #dddddd;
+    --link: #0b5fff;
+    --flag-bg: #fff3cd;
+    --flag-fg: #7a4a00;
+    --flag-border: #e0c060;
+  }}
+  @media (prefers-color-scheme: dark) {{
+    :root {{
+      --bg: #121212;
+      --fg: #e8e8e8;
+      --muted: #a0a0a0;
+      --border: #3a3a3a;
+      --link: #6ea8ff;
+      --flag-bg: #4a3a00;
+      --flag-fg: #ffd873;
+      --flag-border: #8a6d1a;
+    }}
+  }}
+  body {{ background: var(--bg); color: var(--fg); font-family: system-ui, -apple-system, Segoe UI, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }}
   h1 {{ margin-bottom: 0.2rem; }}
-  .sub {{ color: #666; margin-top: 0; }}
+  .sub {{ color: var(--muted); margin-top: 0; }}
   table {{ width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; }}
-  th, td {{ text-align: left; padding: 0.5rem; border-bottom: 1px solid #ddd; vertical-align: top; font-size: 0.92rem; }}
-  tr.flagged {{ background: #fff3cd; }}
-  .flag {{ font-weight: 600; color: #a15c00; }}
-  .meta {{ color: #666; font-size: 0.9rem; }}
-  a {{ color: #0b5fff; }}
-  footer {{ color: #888; font-size: 0.8rem; margin-top: 2rem; }}
+  th, td {{ text-align: left; padding: 0.5rem; border-bottom: 1px solid var(--border); vertical-align: top; font-size: 0.92rem; }}
+  tr.flagged {{ background: var(--flag-bg); }}
+  tr.flagged td {{ color: var(--flag-fg); border-bottom-color: var(--flag-border); }}
+  .flag {{ font-weight: 600; }}
+  .meta {{ color: var(--muted); font-size: 0.9rem; }}
+  a {{ color: var(--link); }}
+  footer {{ color: var(--muted); font-size: 0.8rem; margin-top: 2rem; }}
 </style>
 </head>
 <body>
