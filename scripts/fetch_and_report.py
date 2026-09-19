@@ -13,7 +13,7 @@ import os
 import re
 import smtplib
 import sys
-from datetime import datetime, timezone
+from datetime import datetime
 from email.mime.text import MIMEText
 from pathlib import Path
 
@@ -275,7 +275,7 @@ def generate_html(all_records):
 <p class="sub">Weekly planning applications from Stafford Borough Council, flagged for HMOs, migrants/asylum seekers, and Serco.
 Search any reference at <a href="{PUBLIC_ACCESS_URL}">Public Access</a>.</p>
 {''.join(sections) if sections else '<p>No applications recorded yet.</p>'}
-<footer>Generated {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}. Source: <a href="{INDEX_URL}">Planning Weekly List</a>.</footer>
+<footer>Latest data: week ending {week_labels[0].replace('-', ' ').title() if week_labels else 'n/a'}. Source: <a href="{INDEX_URL}">Planning Weekly List</a>.</footer>
 </body>
 </html>"""
     HTML_FILE.parent.mkdir(parents=True, exist_ok=True)
