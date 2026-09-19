@@ -45,13 +45,30 @@ KEYWORDS = {
     ],
     "Migrants / asylum seekers": [
         "asylum",
-        "migrant",
+        "migrant",  # also catches "immigrant" (substring match)
+        "immigration",
         "refugee",
         "resettlement",
         "dispersal accommodation",
+        "contingency accommodation",
+        "initial accommodation",
+        "temporary accommodation",
+        "supported accommodation",
+        "home office",
+        "unaccompanied",
+        "uasc",
+        "hostel",
+        "bail hostel",
     ],
-    "Serco": [
+    "Serco / asylum contractors": [
         "serco",
+        "clearsprings",
+        "mears",
+    ],
+    "Stafford Muslim Community Centre": [
+        "sandyford street",
+        "baswich lane",
+        "muslim community centre",
     ],
 }
 
