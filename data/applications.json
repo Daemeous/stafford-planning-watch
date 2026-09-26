@@ -1248,5 +1248,327 @@
     "proposal": "Development for between 1 and 5 net dwellings on land Northwood Lane, Clayton, Newcastle under Lyme, Staffordshire Land Opposite 194 Northwood Lane Clayton",
     "type": "Permission in Principle Map Reference: E:385801 N:341720 31/07/26",
     "flags": []
+  },
+  {
+    "ref": "26/42256/FUL",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Gazebo The Baptist Church Sandon Road Stafford",
+    "type": "Full Application Mrs S Onion Map Reference: E:392867 N:325079",
+    "flags": []
+  },
+  {
+    "ref": "26/42690/HOU",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Demolition of existing timber conservatory and proposed single storey pitched roof rear living room extension 4 The Village Walton On The Hill Stafford",
+    "type": "Householder Amy Evans Map Reference: E:395559 N:320998",
+    "flags": []
+  },
+  {
+    "ref": "26/42673/REM",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Reserved matters for access, appearance, landscaping, layout and scale for 23/37100/OUT Land Adjacent Bramble Cottage Wincote Lane Wootton",
+    "type": "Reserved Matters Map Reference: E:382687 N:327397",
+    "flags": []
+  },
+  {
+    "ref": "26/42383/FUL",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Platinum Garden of Remembrance. Proposal for planting trees and footpath in a field near Colwich. Changing the use of rural or agricultural land to a community park, public open space, or recreational ground is considered a \"material change of use.\" Use Class F2 (c ) Community Nature Space Parkland. plant trees and a path for access. Land Adjacent To A51 Lichfield Road Little Haywood",
+    "type": "Full Application Mrs S Onion Map Reference: E:400779 N:322270",
+    "flags": []
+  },
+  {
+    "ref": "26/42745/FUL",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Variation of Condition 2 on 24/39613/FUL - Incorporation of upper floor and associated windows Barns Bridge Farm Buildings Norbury Road Gnosall",
+    "type": "Full Application Hannah Cross Map Reference: E:380782 N:321484",
+    "flags": []
+  },
+  {
+    "ref": "26/42479/FUL",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Creation of new toilet block. Construction of new flat roof between toilet block and main building with new doors and sidelights at either end. Insertion of new windows to match existing style. Removal of chimney stack. New soft and hard landscaping. Forton Parish Hall Meretown Lane Forton",
+    "type": "Full Application Mrs S Onion Map Reference: E:375431 N:321154",
+    "flags": []
+  },
+  {
+    "ref": "26/42481/HOU",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Proposed extensions & material changes Beech Farm Cottage Top Lane Beech",
+    "type": "Householder Ian Lunn Map Reference: E:385119 N:338151",
+    "flags": []
+  },
+  {
+    "ref": "26/42484/HOU",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Variation of conditions 2 and 3 on 25/41328/HOU 6 Wildwood Drive Wildwood Stafford",
+    "type": "Householder Amy Evans Map Reference: E:394460 N:321274",
+    "flags": []
+  },
+  {
+    "ref": "26/42485/FUL",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "External works involving like-for-like repainting of the existing timber windows, installation of safety guardrails and steps to the rear flat roof to enable safe maintenance access. Localised roof repairs where required. Replacement external signage. Internal works are limited in scope and will involve internal redecoration, replacement floor finishes, new banking machines, extension of existing modern stud partitions, refurbishment of staff welfare facilities and minor plumbing works associated with toilet refurbishment. 5 Market Square Stafford Staffordshire",
+    "type": "Full Application Mrs S Onion Map Reference: E:392215 N:323341",
+    "flags": []
+  },
+  {
+    "ref": "26/42486/LBC",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Listed building consent for External works involving like-for-like repainting of the existing timber windows, installation of safety guardrails and steps to the rear flat roof to enable safe maintenance access. Localised roof repairs where required. Replacement external signage. Internal works are limited in scope and will involve internal redecoration, replacement floor finishes, new banking machines, extension of existing modern stud partitions, refurbishment of staff welfare facilities and minor plumbing works associated with toilet refurbishment. 5 Market Square Stafford Staffordshire",
+    "type": "Listed Building Consent_Alts & Extn Mrs S Onion Map Reference: E:392212 N:323339",
+    "flags": []
+  },
+  {
+    "ref": "26/42760/HOU",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Single storey front porch extension, partial conversion of existing garage and raising of garage roof over converted area 2 Wrenswood Wildwood Stafford",
+    "type": "Householder Jenny Davies Map Reference: E:394321 N:320631",
+    "flags": []
+  },
+  {
+    "ref": "26/42533/HOU",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Single Storey Side Extension 21 Springwood Drive Stone Staffordshire",
+    "type": "Householder Ian Lunn Map Reference: E:391599 N:333321",
+    "flags": []
+  },
+  {
+    "ref": "26/42535/HOU",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Extension and alterations including a front porch, single storey side & rear extension. Also alterations to the roof at the rear to form two gables. Yew Tree House 21 Newport Road Eccleshall",
+    "type": "Householder Jenny Davies Map Reference: E:383084 N:328479",
+    "flags": []
+  },
+  {
+    "ref": "26/42540/LBC",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Retension of four front elevation timber windows and the principal entrance door Laburnum Cottage Sandon Road Hilderstone",
+    "type": "Listed Building Consent_Alts & Extn Mrs S Onion Map Reference: E:394851 N:334584",
+    "flags": []
+  },
+  {
+    "ref": "26/42542/LBC",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Listed Building consent for change of use from from Use Class C3 (Dwellinghouse) to Use Class E(e) Dental Practice with associated works, new rear canopy and front illuminated signage Lyme Cottage 4 Castle Street Eccleshall",
+    "type": "Listed Building Consent_Alts & Extn Charlotte Van De Wydeven Map Reference: E:383150 N:329202",
+    "flags": []
+  },
+  {
+    "ref": "26/42650/FUL",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "3 No covered padel courts, alteration of part of existing trim trail for car access, new parking for 16 cars The County Ground Blackberry Lane Stafford",
+    "type": "Full Application Charlotte Van De Wydeven Map Reference: E:391295 N:323811",
+    "flags": []
+  },
+  {
+    "ref": "26/42575/TCA",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Moddershall Valley Conservation Area: Cut back all shrubs and brambles to fence line to a height of 4 metres to remove solid contact on the building, ensure clear pedestrian access on the fire escape and to remove encroachment into the service yard. We will also crown raise the Cherry trees to a height of 4 metres. Morrisons Supermarket Mill Street Stone",
+    "type": "Tree Works in Conservation Area Map Reference: E:390475 N:333960",
+    "flags": []
+  },
+  {
+    "ref": "26/42578/ADV",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "1no. powder-coated aluminium fascia sign with push-through acrylic LED lettering, 2no. powder- coated aluminium fascia sign blanks and 1no. digital display screen. 42 - 43 Greengate Street Stafford Staffordshire",
+    "type": "Application to Display Adverts Map Reference: E:392209 N:323138",
+    "flags": []
+  },
+  {
+    "ref": "26/42584/LBC",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Retrospective listed building consent for repairs to office ceiling, new double-glazed windows, improvemets to roof and new stud wall and door Shugborough Park Lichfield Road Shugborough",
+    "type": "Listed Building Consent_Alts & Extn Ian Lunn Map Reference: E:399214 N:322484",
+    "flags": []
+  },
+  {
+    "ref": "26/42596/LDC",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Regularise existing solar panels Logistics Unit Stone Business Park Brooms Road",
+    "type": "Lawful Development Certificate_Existing Jenny Davies Map Reference: E:390933 N:331998",
+    "flags": []
+  },
+  {
+    "ref": "26/42603/FUL",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Change of use of Fieldway House, Blythe Bridge, from a residential care home (Use Class C2) to six self- contained dwellings (Use Class C3). 5 Fieldway Blythe Bridge Stoke-On-Trent",
+    "type": "Full Application Charlotte Van De Wydeven Map Reference: E:394731 N:341454",
+    "flags": []
+  },
+  {
+    "ref": "26/42611/FUL",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Change of use of Fieldway House, Blythe Bridge, from a residential care home (Use Class C2) to a 15- bedroom House in Multiple Occupation (HMO) (Use Class Sui Generis), with associated parking and landscape works. 5 Fieldway Blythe Bridge Stoke-On-Trent",
+    "type": "Full Application Hannah Cross Map Reference: E:394737 N:341447",
+    "flags": [
+      "HMO"
+    ]
+  },
+  {
+    "ref": "26/42614/TWT",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "TPO 13 1973: Lime - Removal 51C Rowley Grove Stafford Staffordshire",
+    "type": "Tree Work in TPO Map Reference: E:392343 N:321892",
+    "flags": []
+  },
+  {
+    "ref": "26/42684/TWT",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "TPO 121 1983 & Trentham Conservation Area: Holly - Remove The Old Dairy House Trentham Park Park Drive",
+    "type": "Tree Work in TPO Map Reference: E:386383 N:341098",
+    "flags": []
+  },
+  {
+    "ref": "26/42628/FUL",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Change of use from dwellinghouse to offices for church staff Trinity Cottage Church Grove Eccleshall",
+    "type": "Full Application Jodie Cleaver Map Reference: E:382695 N:329160",
+    "flags": []
+  },
+  {
+    "ref": "26/42640/FUL",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Erection of a new discount foodstore (Use Class E) and parking with access, landscaping and other associated works. Forge Farm Stafford Road Aston By Stone",
+    "type": "Full Application Tom Cannon Map Reference: E:391083 N:332124",
+    "flags": []
+  },
+  {
+    "ref": "26/42657/ADV",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "New shopfront facia signage and hanging sign. Units 15-17 Guildhall Shopping Centre Market Square",
+    "type": "Application to Display Adverts Map Reference: E:392150 N:323312",
+    "flags": []
+  },
+  {
+    "ref": "26/42735/TCA",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Shropshire Union Canal Conservation Area: Works as per submitted documents Land Bordering Shropshire Union Canal Gnosall Stafford",
+    "type": "Tree Works in Conservation Area Map Reference: E:381673 N:320704",
+    "flags": []
+  },
+  {
+    "ref": "26/42769/TCA",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Walk Mill Conservation Area: Poplar & Ash - Fell. Coppice has excessive number of trees in a small area. Trees are over 15m tall and leaning towards property. Coppice Between Walkmill Pool And Doley Road Stafford Staffordshire",
+    "type": "Tree Works in Conservation Area Map Reference: E:379115 N:329706",
+    "flags": []
+  },
+  {
+    "ref": "26/42679/TCA",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Forebridge Conservation Area: 2 x Leyland Cypress (18.1 and 18.2) - The trees are on the boundary between The Firs and number 4. They are fully mature and are encroaching on the rear garden of number 4. Fell both trees The Firs Garden Street Stafford",
+    "type": "Tree Works in Conservation Area Map Reference: E:392487 N:322689",
+    "flags": []
+  },
+  {
+    "ref": "26/42682/TWT",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "TPO 135 1983: Oak - 30% overall reduction or reduce back to previous pruning points. 3 x Lime (1-3) - Crown reduce height to 2m with corresponding reduction in crown spread. 2 x Lime (4-5) - Repollard to existing established pollard points at around 9m high. Lime (6) - Pollard Orchard House Winghouse Lane Tittensor",
+    "type": "Tree Work in TPO Map Reference: E:386553 N:337625",
+    "flags": []
+  },
+  {
+    "ref": "26/42746/LDC",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "To regularise existing residential annexe Lang House Long Compton Lane Ranton",
+    "type": "Lawful Development Certificate_Existing Map Reference: E:385663 N:322888",
+    "flags": []
+  },
+  {
+    "ref": "26/42776/TCA",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Stafford Conservation Area: 3 x Limes - Crown lift to 5m all around. Remove epicormic growth and crown reduce by up to 3m to achieve clearance from properties and church St Marys Church St Marys Place Stafford",
+    "type": "Tree Works in Conservation Area Map Reference: E:392112 N:323167",
+    "flags": []
+  },
+  {
+    "ref": "26/42702/NHPD",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Proposed single-storey rear extension projecting 5.0 metres from the original rear wall of the dwelling, 2.7m max height, 2.7m height of eaves. 3 meters wide. The extension will be used as additional living accommodation. The proposal includes a 3.5 metre wide bi-fold door and a new window. External materials will be selected to match the existing dwelling as closely as practicable. 4 Candler Drive Stone Staffordshire",
+    "type": "Householder Notification Map Reference: E:389378 N:334345",
+    "flags": []
+  },
+  {
+    "ref": "26/42711/FUL",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Proposed conversion of redundant agricultural building into two Dwellings Barn 2 East Of Ryland's Covert Norbury Road Norbury",
+    "type": "Full Application Map Reference: E:380769 N:321447",
+    "flags": []
+  },
+  {
+    "ref": "26/42712/LDCPP",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Lawful Development Certificate - Proposed single storey side extension 4 Lindenbrook Vale Wildwood Stafford",
+    "type": "Lawful Development Cert Proposed Public Ellie Cooke Map Reference: E:394270 N:321186",
+    "flags": []
+  },
+  {
+    "ref": "26/42753/HAZ",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Hazarous Substance Consent for the storage of Liquified Natural Gas. Maximum quantity 17 tonnes. Unit DC2 Screwfix Direct Shackleton Way Stafford",
+    "type": "Hazardous Substance Consent Gerard Walsh Map Reference: E:390405 N:326182",
+    "flags": []
+  },
+  {
+    "ref": "26/42759/PIP",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Permission in Principle - Residential Development - Up to six dwellings Former Hospital Nursery Garden And Car Park Stallington Road Blythe Bridge",
+    "type": "Permission in Principle Jodie Cleaver Map Reference: E:394417 N:339393",
+    "flags": []
+  },
+  {
+    "ref": "26/42731/LDCPP",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Lawful Development Certificate - Proposed single storey rear extension to replace conservatory 6 Parsons Drive Gnosall Stafford",
+    "type": "Lawful Development Cert Proposed Public Map Reference: E:383251 N:320898",
+    "flags": []
+  },
+  {
+    "ref": "26/42762/T5N",
+    "week": "25-september-2026",
+    "source_pdf": "https://www.staffordbc.gov.uk/planning-weekly-list-25-september-2026",
+    "proposal": "Stafford Conservation Area: Willow - Remove. Tree is 40% dead and is in need of removal on safety grounds. Mill Bank Stafford Staffordshire",
+    "type": "Tree Five Day Notice Map Reference: E:392116 N:322993",
+    "flags": []
   }
 ]
